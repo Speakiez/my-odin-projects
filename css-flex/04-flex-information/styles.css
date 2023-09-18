@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 128px;
+    height: auto;
+    margin: 4px;
+}
+
+.info-header {
+    margin: 32px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    text-align: center;
+}
+
+.info-content {
+    display: flex;
+    gap: 54px;
+}
+
+.item {
+    width: 200px;
+    height: auto;
+    font-size: 1rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    text-align: center;
+}
